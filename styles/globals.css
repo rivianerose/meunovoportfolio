@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(122, 122, 122);
+  
+}
+a {
+    color: #009e66;
+}
+.menu {
+   background-image: url(../public/bg.jpg);
+   height: 100vh;
+   display: block;
+   background-color: #009e670e;
+}
+.menuprincipal {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.719), rgba(0, 0, 0, 0.822));
+    background-position: center center;
+    background-size: cover;
+  position: fixed;
+    color: #009e66;
+    width: 100%;
+}
+
+.menuprincipal:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+.menuprincipal h1, ul {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menuprincipal ul {
+    list-style: none;
+}
+
+.menuprincipal li {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menuprincipal li:hover{
+    background-color: white;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bio {
+  display: block;
+  margin: 0 auto;
+ text-align: center;
+color: white;
+
+}
+
+.bio h1{
+  font-size: 100px;
+  text-align: center;
+ padding-top: 30vh;
+}
+.bio h2 {
+  margin: 30px;
+  font-size: 45px;
+  
+}
+
+.bio h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+.bio button {
+  background-color: #009e66;
+  width: 200px;
+  height: 60px;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+margin: 0 auto;
+
+}
+
+.bio button, a {
+  text-decoration: none;
+}
+
+.paginaum {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+.minhagaleria{
+  background-color: rgba(0, 0, 0, 0.945);
+  height: auto;
+}

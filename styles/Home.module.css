@@ -1,0 +1,255 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.tudosobremim{
+  height: auto;
+ background-color: rgba(0, 0, 0, 0.945);
+ color: white;
+}
+
+.tudosobremim{
+  height: auto;
+ background-color: rgba(0, 0, 0, 0.945);
+ color: white;
+}
+
+.menuabout{ 
+  text-align: center;
+  padding: 60px;
+}
+
+.menuabout h1{
+  font-size: 60px;
+}
+.menuabout h3 {
+  padding: 20px;
+}
+
+.sobremim{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+}
+.sobremim foto {
+  width: 50%;
+
+}
+
+
+.sobre{
+  text-align: left;
+  width: 50%;
+  height: auto;
+
+} 
+
+
+
+.sobre h1 {
+  padding: 20px;
+  font-size: 40px;
+  color: #009e66;
+}
+
+.sobre h2{
+  padding: 20px;
+  font-size: 25x;
+}
+
+.sobre p {
+ height: auto;
+ width: 80%;
+ padding-bottom: 20px;
+ 
+}
+.detalhes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+
+
+
+}
+.detalhes div{
+display: block;
+width: 90%;
+background-color: #665f5f49;
+margin: 5px;
+
+}
+
+.detalhes div:hover{
+  border-left: 4px solid #009e66;
+}
+
+.butao button {
+  
+  background-color: #009e66;
+  width: 200px;
+  height: 60px;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  margin-top:  30px;
+}
+
+.whatido{
+  background-color: rgba(0, 0, 0, 0.945);
+  color: white;
+  height: 100%;
+}
+
+.ido{
+  text-align: center;
+  padding: 30px;
+}
+
+.ido h1{
+  font-size: 60px;
+}
+
+.ido h2{
+  margin-bottom: 30px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.box{
+  background-color: #665f5f49;
+  width: 25%;
+  padding: 30px;
+  margin: 10px;
+  height: 30vh;
+}
+.box:hover{
+  background-color: #009e67b4;
+  
+}
+
+.box h2 {
+margin: 30px;
+}
+.box p {
+  margin: 10px;
+}
+
+.myresum {
+  background-color: rgba(14, 14, 14, 0.986);
+  color: white;
+}
+.resumo {
+  height: auto
+  ;
+  padding-top: 0;
+  
+
+}
+
+.meuresumo{
+  margin-top: -30px;
+}
+.meuresumo ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+list-style: none;
+}
+
+.meuresumo li {
+  background-color: #665f5f49;
+  padding: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.meuresumo li:hover{
+  background-color: #009e6763;
+
+}
+.education {
+  height: auto;
+ 
+}
+
+.myeducation h1{
+  text-align: left;
+  font-size: 20px;
+}
+.myeducation h2 {
+  margin: 20px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #009e66;
+}
+.myimages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.educationboxes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.edbox{
+ 
+  background-color: #665f5f49;
+  width: 30%;
+  padding: 30px;
+  margin: 10px;
+  height: 20vh;
+}
+
+@media screen and (max-width:1180px) {
+.sobre{
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+.sobre p {
+   width: 100%;
+}
+  .detalhes{
+    height: auto;
+    width: 100%; 
+     display: block;
+    
+  }
+
+  .detalhes div {
+  width: 90%;
+  display: block;
+margin-left: 30px;
+  padding: 10px;
+  
+  }
+
+  .butao button {
+    margin:  0 auto;
+  }
+  .box{
+    height: auto;
+    width: 70%;
+  }
+  .myimages img{
+    display: none;
+  }
+  .edbox{
+    height: auto;
+    width: 70%;
+  }
+}

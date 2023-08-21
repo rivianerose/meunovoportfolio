@@ -1,0 +1,43 @@
+
+
+.meuresumo{
+    margin-top: -30px;
+  height: 80vh;
+  }
+  .meuresumo ul {
+    display: flex;
+    justify-content: center;
+  list-style: none;
+
+  }
+  
+  .meuresumo li {
+    background-color: #665f5f49;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .meuresumo li:hover{
+    background-color: #009e6763;
+  
+  }
+  .mymenu {
+    background-color: rgb(14, 14, 14);
+    color:  white;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .mymenu h1{
+    padding-top: 20px;
+  }
+
+ .galeriadefotos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  text-align: center;
+  width: 70%;
+  margin:  0 auto;
+  cursor: pointer;
+ }
