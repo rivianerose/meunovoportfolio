@@ -1,0 +1,35 @@
+.formulario{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+   text-align: center;
+}
+.formulario h2{ 
+    color: #009e66;
+}
+.formulario form{
+
+ width: 50%;
+margin: 50px auto;
+}
+
+.formulario input{
+    background-color: #665f5f49;
+margin-top: 20px;
+padding: 10px;
+width: 80%;
+}
+
+
+.formulario textarea{
+    background-color: #665f5f49;
+    margin-top: 20px;
+padding: 10px;
+width: 80%;
+height: 20%;
+}
+
+.formulario .mybuttonn{
+background-color: #009e66;
+}

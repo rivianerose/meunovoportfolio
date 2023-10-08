@@ -11,6 +11,7 @@ import blog from './blog'
 import contact from './contact'
 import Pagina from './pagina'
 import Portfolio from './portfolio'
+import MyContact from './contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -53,6 +54,7 @@ export default function Home() {
         <Services />
         <Pagina />
         <Portfolio />
+        <MyContact />
       </main> 
     </div>
   )
